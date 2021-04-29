@@ -11,8 +11,8 @@ server {
         listen [::]:443 ssl;
 
         server_name server;
-        ssl_certificate /etc/nginx/ssl/localhost.crt;
-        ssl_certificate_key /etc/nginx/ssl/localhost.key;
+        ssl_certificate /etc/ssl/certs/mguadalu.crt;
+        ssl_certificate_key /etc/ssl/mguadalu.key;
 
         root /var/www/html;
         index index.html index.htm index.php;
